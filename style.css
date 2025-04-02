@@ -29,7 +29,6 @@ body{
    -webkit-backdrop-filter: blur(100px);
    /* background-color: rgba(255, 255,  255, 0.5); */
     overflow-x: auto;
-     padding: 0.5em;
    cursor: pointer;
 }
 .grid img{
@@ -63,6 +62,7 @@ body{
         width: 100vw;
         height: 20vh;
         scrollbar-width: none;
+        padding: 1em;
     }
     .grid::-webkit-scrollbar{
         display: none;
