@@ -28,6 +28,7 @@ body{
    backdrop-filter: blur(10px);
    -webkit-backdrop-filter: blur(100px);
    /* background-color: rgba(255, 255,  255, 0.5); */
+    overflow-x: auto;
    cursor: pointer;
 }
 .grid img{
@@ -59,8 +60,11 @@ body{
     .grid{
         width: 100vw;
         height: 20vh;
+        scrollbar-width: none;
     }
-      
+    .grid::-webkit-scrollbar{
+        display: none;
+     }
 
      .grid img{
         width: 100px;
