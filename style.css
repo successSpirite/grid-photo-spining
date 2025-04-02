@@ -41,6 +41,7 @@ body{
     /* transition: 0.5s ease; */
     transform: rotate(0deg);
     transition: transform 0.5s;
+    padding: 0.5em;
 }
 .grid img:hover{
    transform: scale(1.8);
